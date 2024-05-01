@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="weather.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>FiliTravels</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">FiliTravels.com</a></div>
+      <ul class="nav__links">
+        <li class="link"><a href="Index.html">Home</a></li>
+        <li class="link"><a href="Destinations.html">Destinations</a></li>
+        <li class="link"><a href="New-location.html">Next Trip</a></li>
+        <li class="link"><a href="About.html">About</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="section__container">
+        <div class="header__content">
+          <h1>Egypt, cairo</h1>
+          <p>
+            Cairo, Egypt, is a bustling city filled with ancient wonders and
+            vibrant culture. Visitors can explore the iconic pyramids of Giza,
+            marvel at the treasures of the Egyptian Museum, and wander through
+            the historic streets of Islamic Cairo. Delicious Egyptian cuisine,
+            like falafel and koshari, tantalizes taste buds, while bustling
+            bazaars offer unique souvenirs. The Nile River adds a scenic
+            backdrop to the city, perfect for relaxing boat rides. With its rich
+            history and warm hospitality, Cairo promises an unforgettable
+            adventure for travelers of all ages. Lets dive in!
+          </p>
+        </div>
+      </div>
+    </header>
+    <div class="weather-widget">
+      <h2 class="weather-widget__location"></h2>
+      <div class="weather-widget__info">
+        <div class="weather-widget__temperature"></div>
+        <div class="weather-widget__description"></div>
+      </div>
+    </div>
+    <div class="map" id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="cairo.js"></script>
+    <footer>
+      <div class="section__container">
+        <h4>FiliTravels.com</h4>
+        <div class="social__icons">
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-instagram-line"></i></span>
+          <span><i class="ri-linkedin-fill"></i></span>
+        </div>
+        <p>
+          Travel makes one modest. You see what a tiny place you occupy in the
+          world.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+.weather-widget {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.weather-widget__info {
+  margin-top: 20px;
+}
+
+.weather-widget__temperature {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.weather-widget__description {
+  margin-top: 10px;
+}
+
+:root {
+  --size: 400px;
+}
+
+.weather {
+  width: var(--size);
+  height: var(--size);
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+}
+
+.temperature {
+  border: 1px solid white;
+  padding: 20px;
+}

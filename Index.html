@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>FiliTravels</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo"><a href="#">FiliTravels.com</a></div>
+      <ul class="nav__links">
+        <li class="link">
+          <a href="Index.html"><strong>Home</strong></a>
+        </li>
+        <li class="link"><a href="Destinations.html">Destinations</a></li>
+        <li class="link"><a href="New-location.html">Next Trip</a></li>
+        <li class="link"><a href="About.html">About</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="section__container">
+        <div class="header__content">
+          <h1>Travel</h1>
+          <p>
+            Lets have a Embark on a journey of a lifetime and explore the
+            world's most breathtaking destinations with our expert travel
+            advice. From exotic beaches to cultural wonders, we've got you
+            covered with our comprehensive travel guides and insider tips.
+          </p>
+          <button>Read more</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="journey__container">
+      <div class="section__container">
+        <h2 class="section__title">Places I visited</h2>
+        <p class="section__subtitle">
+          Here are some places I visited in the past
+        </p>
+        <div class="journey__grid">
+          <div class="country__card">
+            <img src="assets/country-11.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span><a href="Kairo.html">Cairo, Egypt</a></span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-7.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span><a href="tokyo.html">Tokyo, Japan</a></span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-10.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span><a href="sanfrancisco.html">San Francisco</a></span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-8.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span><a href="montreal.html">Montreal, Canada</a></span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-12.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span><a href="Eritrea.html">Asmara, Eritrea</a></span>
+            </div>
+          </div>
+          <div class="country__card">
+            <img src="assets/country-9.jpg" alt="country" />
+            <div class="country__name">
+              <i class="ri-map-pin-2-fill"></i>
+              <span><a href="London.html">London, England</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="map" id="map"></div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+    <section class="banner__container">
+      <div class="section__container">
+        <div class="banner__content">
+          <h2>Discover the World with me</h2>
+          <p>
+            Travel the world with me and uncover what the world has to offer.
+            Whether you're looking for a short escape or planning ahead for a
+            long journey, it will be fun and fills your soul. Don't wait and
+            experience the adventure of a lifetime.
+          </p>
+          <button><a href="New-location.html">Choose-locations</a></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="display__container">
+      <div class="section__container">
+        <h2 class="section__title">Why Choose Me</h2>
+        <p class="section__subtitle">
+          The gladdest moment in human life, is a departure into unknown lands.
+        </p>
+        <h2>Who I Am</h2>
+        <p>
+          Welcome to my travel blog! I'm a passionate explorer who loves sharing
+          my adventures with the world.<br />
+          I travel to the most fascinating destinations, uncovering hidden gems,
+          and capturing unforgettable moments through my writing and
+          photography.<br />
+          With my insider tips, detailed guides, and authentic experiences, I'll
+          inspire you to embark on your own unforgettable journeys.
+        </p>
+        <div class="display__grid">
+          <div class="display__card grid-1">
+            <img src="assets/grid-1.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-earth-line"></i>
+            <h4>Passionate Travel</h4>
+            <p>Fuel your passion for adventure and discover new horizons</p>
+          </div>
+          <div class="display__card">
+            <img src="assets/grid-2.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <img src="assets/grid-3.jpg" alt="grid" />
+          </div>
+          <div class="display__card">
+            <i class="ri-road-map-line"></i>
+            <h4>Beautiful Places</h4>
+            <p>Uncover the world's most breathtakingly beautiful places</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container">
+        <h4>FiliTravels.com</h4>
+        <div class="social__icons">
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-instagram-line"></i></span>
+          <span><i class="ri-linkedin-fill"></i></span>
+        </div>
+        <p>
+          Travel makes one modest. You see what a tiny place you occupy in the
+          world.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
