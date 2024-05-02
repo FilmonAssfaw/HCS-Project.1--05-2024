@@ -35,8 +35,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const popupContent = `
       <div class="map__popup">
-        <h2 class="map__popup-title">Marker Popup</h2>
-        <p class="map__popup-description">This is a marker popup.</p>
+        <h2 class="map__popup-title">Asmara</h2>
+        <p class="map__popup-description">Come visit the red sea its nice here.</p>
       </div>
     `;
 

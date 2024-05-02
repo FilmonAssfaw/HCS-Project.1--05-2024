@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="gallery.css" />
     <link rel="stylesheet" href="weather.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <title>FiliTravels</title>
@@ -41,6 +42,15 @@
         </div>
       </div>
     </header>
+    <div class="gallery">
+      <div class="gallery__item">
+        <img src="image1.jpg" alt="Image 1" />
+      </div>
+      <div class="gallery__item">
+        <img src="image2.jpg" alt="Image 2" />
+      </div>
+      <!-- Add more gallery items as needed -->
+    </div>
     <div class="weather-widget">
       <h2 class="weather-widget__location"></h2>
       <div class="weather-widget__info">
@@ -51,6 +61,7 @@
     <div class="map" id="map"></div>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="cairo.js"></script>
+    <script src="gallery.js"></script>
     <footer>
       <div class="section__container">
         <h4>FiliTravels.com</h4>

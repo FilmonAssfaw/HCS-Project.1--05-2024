@@ -1,0 +1,16 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+
+.gallery__item {
+  flex: 1 0 300px;
+  margin: 10px;
+}
+
+.gallery__item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
