@@ -1,16 +1,18 @@
-window.addEventListener("resize", adjustGallery);
+const buttons = document.querySelectorAll("[data-carousel-button]");
 
-function adjustGallery() {
-  const galleryItems = document.querySelectorAll(".gallery__item");
-  const containerWidth = document.querySelector(".gallery").offsetWidth;
-  const itemWidth = 300;
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const offset = button.dataset.carouselButton === "next" ? 1 : -1;
+    const slides = button
+      .closest("[data-carousel]")
+      .querySelector("[data-slides]");
 
-  const numItemsPerRow = Math.floor(containerWidth / itemWidth);
-  const newWidth = containerWidth / numItemsPerRow - 20;
+    const activeSlide = slides.querySelector("[data-active]");
+    let newIndex = [...slides.children].indexOf(activeSlide) + offset;
+    if (newIndex < 0) newIndex = slides.children.length - 1;
+    if (newIndex >= slides.children.length) newIndex = 0;
 
-  galleryItems.forEach((item) => {
-    item.style.flex = `1 0 ${newWidth}px`;
+    slides.children[newIndex].dataset.active = true;
+    delete activeSlide.dataset.active;
   });
-}
-
-adjustGallery();
+});
