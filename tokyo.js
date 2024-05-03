@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const popupContent = `
       <div class="map__popup">
         <h2 class="map__popup-title">Tokyo</h2>
-        <p class="map__popup-description">What can I say, you know me.</p>
+        <p class="map__popup-description">I am not, I am in Hyogo! Tokyo is in the far east from here...</p>
       </div>
     `;
 

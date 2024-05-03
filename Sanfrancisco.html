@@ -29,28 +29,47 @@
         <div class="header__content">
           <h1>San Francisco</h1>
           <p>
-            Cairo, Egypt, is a bustling city filled with ancient wonders and
-            vibrant culture. Visitors can explore the iconic pyramids of Giza,
-            marvel at the treasures of the Egyptian Museum, and wander through
-            the historic streets of Islamic Cairo. Delicious Egyptian cuisine,
-            like falafel and koshari, tantalizes taste buds, while bustling
-            bazaars offer unique souvenirs. The Nile River adds a scenic
-            backdrop to the city, perfect for relaxing boat rides. With its rich
-            history and warm hospitality, Cairo promises an unforgettable
-            adventure for travelers of all ages. Lets dive in!
+            San Francisco, is a bustling city filled with wonders and vibrant
+            culture. Visitors can explore the iconic Golden Gate Bridge,
+            Delicious cuisine,like this and that, tantalizes taste buds. The
+            River adds a scenic backdrop to the city, perfect for relaxing boat
+            rides. With its rich history and warm hospitality, San Francisco
+            promises an unforgettable adventure for travelers of all ages. Lets
+            dive in!
           </p>
         </div>
       </div>
     </header>
-    <div class="gallery">
-      <div class="gallery__item">
-        <img src="image1.jpg" alt="Image 1" />
+    <section aria-label="San-Francisco Photos">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &#8656;
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          &#8658;
+        </button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="assets/frisco-1.jpg" alt="frisco-1" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/frisco-2.jpg" alt="frisco-2" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/frisco-3.jpg" alt="frisco-3" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/frisco-4.jpg" alt="frisco-4" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/frisco-5.jpg" alt="frisco-5" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/frisco-6.jpg" alt="frisco-6" />
+          </li>
+        </ul>
       </div>
-      <div class="gallery__item">
-        <img src="image2.jpg" alt="Image 2" />
-      </div>
-      <!-- Add more gallery items as needed -->
-    </div>
+    </section>
     <div class="weather-widget">
       <h2 class="weather-widget__location"></h2>
       <div class="weather-widget__info">

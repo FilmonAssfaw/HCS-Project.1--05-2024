@@ -1,5 +1,5 @@
 const apiKey = "6e20016a7bcb963f4843326fb4656e16";
-const city = "Hamburg"; // Now London is the targeted city
+const city = "Hamburg";
 
 const locationElement = document.querySelector(".weather-widget__location");
 const temperatureElement = document.querySelector(

@@ -42,15 +42,36 @@
         </div>
       </div>
     </header>
-    <div class="gallery">
-      <div class="gallery__item">
-        <img src="image1.jpg" alt="Image 1" />
+    <section aria-label="montreal Photos">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &#8656;
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          &#8658;
+        </button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src="assets/tokyo-1.jpg" alt="tokyo-1" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/tokyo-2.jpg" alt="tokyo-2" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/tokyo-3.jpg" alt="tokyo-3" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/tokyo-4.webp" alt="tokyo-4" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/tokyo-5.jpg" alt="tokyo-5" />
+          </li>
+          <li class="slide" data-active>
+            <img src="assets/tokyo-6.jpg" alt="tokyo-6" />
+          </li>
+        </ul>
       </div>
-      <div class="gallery__item">
-        <img src="image2.jpg" alt="Image 2" />
-      </div>
-      <!-- Add more gallery items as needed -->
-    </div>
+    </section>
     <div class="weather-widget">
       <h2 class="weather-widget__location"></h2>
       <div class="weather-widget__info">
